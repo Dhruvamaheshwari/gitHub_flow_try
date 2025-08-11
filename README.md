@@ -34,23 +34,26 @@ This repository contains a **carefully curated collection of 120+ array problems
 ## 🗂️ Repository Structure
 
 ```
-array-dsa-roadmap/
+DS/
 │
-├── README.md                   # This file
-├── PROBLEMS.md                 # Complete problem list with descriptions
-├── SOLUTIONS/                  # Solution implementations
-│   ├── Level-1-Fundamentals/
-│   ├── Level-2-Core-Patterns/
-│   ├── Level-3-Intermediate/
-│   ├── Level-4-Advanced/
-│   └── Level-5-Expert/
-├── PATTERNS/                   # Pattern-wise explanations
-│   ├── two-pointers.md
-│   ├── sliding-window.md
-│   ├── binary-search.md
-│   └── ...
-├── TEMPLATES/                  # Code templates for each pattern
-└── PRACTICE-TRACKER/           # Progress tracking sheets
+└── array-dsa-roadmap/
+    │
+    ├── SOLUTIONS/              # Solution implementations
+    │   ├── Level-1-Fundamentals/
+    |   |       └──Question-01/
+    |   |           ├──PROBLEM.md [with descriptions]  # Complete problem
+    |   |           └── Solution.cpp # Complete solution  
+    │   ├── Level-2-Core-Patterns/
+    │   ├── Level-3-Intermediate/
+    │   ├── Level-4-Advanced/
+    │   └── Level-5-Expert/
+    ├── README.md
+    └── PATTERNS/               # Pattern-wise explanations
+        ├── two-pointers.md
+        ├── sliding-window.md
+        ├── binary-search.md
+        └── ...
+   
 ```
 
 ## 🚀 Getting Started
@@ -63,7 +66,7 @@ array-dsa-roadmap/
 ### Quick Start
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/array-dsa-roadmap.git
+   git clone https://github.com/SAYOUNCDR/DS_ALG.git
    cd array-dsa-roadmap
    ```
 
@@ -78,40 +81,207 @@ array-dsa-roadmap/
    - Use the provided tracking sheets
    - Mark completed problems
 
-## 📚 Learning Path
+---
 
-### 🌟 Level 1: Fundamentals (22 Problems)
-**Focus**: Basic operations, traversal, simple manipulations
-- Array basics and indexing
-- Linear search and simple algorithms
-- Basic two-pointer introduction
+### 📚 DSA Array Learning Path
 
-### 🔥 Level 2: Core Patterns (25 Problems)  
-**Focus**: Essential problem-solving patterns
-- Two pointers foundation
-- Prefix sum techniques
-- Introduction to sliding window
+A structured roadmap for mastering arrays in Data Structures & Algorithms, organized by pattern and difficulty.  
+Perfect for interview preparation and competitive programming.
 
-### ⚡ Level 3: Intermediate Techniques (25 Problems)
-**Focus**: Advanced pattern applications
-- Complex two-pointer problems
-- Kadane's algorithm variants
-- Binary search on arrays
-- Array rotation techniques
 
-### 🚀 Level 4: Advanced Patterns (28 Problems)
-**Focus**: Integration of multiple concepts
-- Advanced sliding window
-- Complex hashing techniques
-- Greedy strategies
-- Multi-pattern problems
+## 🌟 Level 1: Fundamentals (22 Problems)
+**Focus**: Basic operations, traversal, simple manipulations  
+- Array basics and indexing  
+- Linear search and simple algorithms  
+- Basic two-pointer introduction  
 
-### 🏆 Level 5: Expert Challenges (28 Problems)
-**Focus**: Competition and interview mastery
-- Advanced binary search applications
-- Matrix and 2D array problems
-- Complex data structure integration
-- Mathematical and optimization challenges
+### 1️⃣ Basic Operations & Traversal
+- Find Maximum Element  
+- Find Minimum Element  
+- Second Largest Element  
+- Third Largest Element  
+- Count Even and Odd Numbers  
+- Sum of All Elements  
+- Average of Array Elements  
+- Find Element at Given Index  
+- Linear Search  
+- Count Occurrences of Element  
+- Check if Element Exists  
+- Find Index of Element  
+
+### 2️⃣ Basic Array Manipulation
+- Reverse Array  
+- Copy Array  
+- Insert Element at Position  
+- Delete Element at Position  
+- Replace All Occurrences  
+- Merge Two Sorted Arrays  
+- Check if Array is Sorted  
+- Remove Duplicates from Sorted Array  
+- Move Zeros to End  
+- Separate Even and Odd Numbers  
+
+---
+
+## 🔥 Level 2: Core Patterns (25 Problems)
+**Focus**: Essential problem-solving patterns  
+- Two pointers foundation  
+- Prefix sum techniques  
+- Introduction to sliding window  
+
+### 3️⃣ Two Pointers - Foundation
+- Two Sum (Sorted Array)  
+- Pair with Given Sum  
+- Remove Element  
+- Valid Palindrome Array  
+- Container With Most Water  
+- Sort Colors (0s, 1s, 2s)  
+- Move All Negatives to Left  
+- Squares of Sorted Array  
+
+### 4️⃣ Prefix Sum - Basics
+- Running Sum of Array  
+- Find Pivot Index  
+- Range Sum Query  
+- Subarray Sum Equals K  
+- Maximum Sum of Two Non-overlapping Subarrays  
+- Product of Array Except Self  
+- Minimum Start Value  
+
+### 5️⃣ Sliding Window - Introduction
+- Maximum Sum Subarray of Size K  
+- First Negative in Every Window  
+- Count Occurrences of Anagrams  
+- Max Consecutive Ones  
+- Longest Subarray with Sum ≤ K  
+- Minimum Size Subarray Sum  
+
+---
+
+## ⚡ Level 3: Intermediate Techniques (25 Problems)
+**Focus**: Advanced pattern applications  
+- Complex two-pointer problems  
+- Kadane's algorithm variants  
+- Binary search on arrays  
+- Array rotation techniques  
+
+### 6️⃣ Advanced Two Pointers
+- 3Sum  
+- 3Sum Closest  
+- 4Sum  
+- Trapping Rain Water  
+- Valid Triangle Number  
+- Boats to Save People  
+- Intersection of Two Arrays II  
+
+### 7️⃣ Kadane's Algorithm & Variants
+- Maximum Subarray Sum  
+- Maximum Subarray Product  
+- Maximum Circular Subarray Sum  
+- Maximum Sum of Non-adjacent Elements  
+- Maximum Difference Between Increasing Elements  
+
+### 8️⃣ Binary Search on Arrays
+- Binary Search  
+- Find First and Last Position  
+- Search Insert Position  
+- Search in Rotated Sorted Array  
+- Find Peak Element  
+- Find Minimum in Rotated Sorted Array  
+- Single Element in Sorted Array  
+- Kth Missing Positive Number  
+
+### 9️⃣ Array Rotation & Reversal
+- Rotate Array Right by K  
+- Rotate Array Left by K  
+- Maximum Sum of Rotations  
+- Reverse Array in Groups  
+- Cyclically Rotate by One  
+
+---
+
+## 🚀 Level 4: Advanced Patterns (28 Problems)
+**Focus**: Integration of multiple concepts  
+- Advanced sliding window  
+- Complex hashing techniques  
+- Greedy strategies  
+- Multi-pattern problems  
+
+### 🔟 Advanced Sliding Window
+- Longest Substring with At Most K Distinct  
+- Sliding Window Maximum  
+- Minimum Window Substring  
+- Longest Mountain in Array  
+- Subarrays with K Different Integers  
+- Max Consecutive Ones III  
+- Grumpy Bookstore Owner  
+- Minimum Operations to Reduce X to Zero  
+
+### 1️⃣1️⃣ Advanced Hashing & Frequency
+- Majority Element  
+- Majority Element II  
+- Longest Consecutive Sequence  
+- First Missing Positive  
+- Find All Duplicates  
+- Find All Numbers Disappeared  
+- Subarray Sums Divisible by K  
+- Continuous Subarray Sum  
+
+### 1️⃣2️⃣ Greedy Strategies
+- Best Time to Buy Sell Stock  
+- Best Time to Buy Sell Stock II  
+- Jump Game  
+- Jump Game II  
+- Gas Station  
+- Candy Distribution  
+- Minimum Platforms Required  
+- Meeting Rooms II  
+
+---
+
+## 🏆 Level 5: Expert Challenges (28 Problems)
+**Focus**: Competition and interview mastery  
+- Advanced binary search applications  
+- Matrix and 2D array problems  
+- Complex data structure integration  
+- Mathematical and optimization challenges  
+
+### 1️⃣3️⃣ Advanced Binary Search Applications
+- Median of Two Sorted Arrays  
+- Aggressive Cows  
+- Book Allocation Problem  
+- Painter's Partition  
+- Capacity to Ship Packages  
+- Koko Eating Bananas  
+- Minimum Time to Complete Trips  
+
+### 1️⃣4️⃣ Matrix & 2D Arrays
+- Spiral Matrix  
+- Rotate Image 90°  
+- Set Matrix Zeroes  
+- Search 2D Matrix II  
+- Minimum Path Sum  
+- Unique Paths  
+- Word Search  
+
+### 1️⃣5️⃣ Complex Data Structure Integration
+- Merge K Sorted Arrays  
+- Kth Largest Element  
+- Top K Frequent Elements  
+- Sliding Window Median  
+- Find Median from Data Stream  
+- Smallest Range Covering K Lists  
+
+### 1️⃣6️⃣ Mathematical & Advanced Concepts
+- Next Permutation  
+- Permutation Sequence  
+- Maximum Gap  
+- Largest Rectangle in Histogram  
+- Maximal Rectangle  
+- Rain Water Trapping 2D  
+- Russian Doll Envelopes  
+- Count of Smaller Numbers After Self  
+
 
 ## 🏆 Difficulty Levels
 
@@ -212,11 +382,6 @@ We welcome contributions! Here's how you can help:
 - [ ] Handle complex mathematical problems
 - [ ] Integrate multiple data structures
 
-## 🌟 Success Stories
-
-> *"This roadmap helped me land my dream job at [Company]! The structured approach made complex problems manageable."* - Anonymous
-
-> *"Went from struggling with basic arrays to solving expert-level problems in 8 weeks!"* - Community Member
 
 ## 📚 Additional Resources
 
@@ -238,9 +403,9 @@ We welcome contributions! Here's how you can help:
 ## 📞 Support
 
 ### 🤔 Need Help?
-- **Discord Community**: [Join our server](https://discord.gg/your-server)
+
 - **GitHub Issues**: Report problems or ask questions
-- **Email**: contact@yourproject.com
+- **Email**: 0xsyn.dev@gmail.com
 
 ### 💬 Discussion Forums
 - Share your solutions and approaches
@@ -274,6 +439,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the programming community**
 
-[🐛 Report Bug](https://github.com/your-repo/issues) • [💡 Request Feature](https://github.com/your-repo/issues) • [🤝 Contribute](CONTRIBUTING.md)
+[🐛 Report Bug](https://github.com/SAYOUNCDR/DS_ALG/issues) • [💡 Request Feature](https://github.com/SAYOUNCDR/DS_ALG/issues) • [🤝 Contribute](CONTRIBUTING.md)
 
 </div>
