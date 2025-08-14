@@ -81,7 +81,7 @@ Given an array of integers, find and return the maximum (largest) element in the
 - Return the maximum element in the array
 
 **Time Complexity:** O(n)  
-**Space Complexity:** O(1)
+**Space Complexity:** O(n)
 
 **Test Cases:**
 
@@ -114,7 +114,7 @@ Given an array of integers, find and return the minimum (smallest) element in th
 - Return the minimum element in the array
 
 **Time Complexity:** O(n)  
-**Space Complexity:** O(1)
+**Space Complexity:** O(n)
 
 **Test Cases:**
 

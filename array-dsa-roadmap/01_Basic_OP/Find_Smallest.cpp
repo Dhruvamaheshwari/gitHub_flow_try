@@ -6,7 +6,6 @@ int main()
     int size;
     cin >> size;
 
-    
     if (size <= 0)
     {
         cout << "Array is Empty";
@@ -18,17 +17,14 @@ int main()
     {
         cin >> arr[i];
     }
-
-    int largest = arr[0];
+    int smallest = arr[0];
     for (int i = 1; i < size; i++)
     {
-        if (arr[i] > largest)
+        if (arr[i] < smallest)
         {
-            largest = arr[i];
+            smallest = arr[i];
         }
     }
-
-    cout << "Largest Element in the array is : " << largest;
-
+    cout << "The smallest element is : " << smallest;
     return 0;
 }
